@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
+
+body {
+  font-family: 'Arima', cursive;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+  display: flex;
+}
+
+.flip-card-front > p, .flip-card-back > p  {
+  flex: 1;
+  align-self: center;
+}
+
+.flip-card-back {
+  color: black;
+  display: flex;
+  transform: rotateX(180deg);
+
+}
+.btn {
+  padding: 10px 16px;
+    margin: 2%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 7px 1px rgb(0 0 0 / 25%);
+}
+
+.btn:active {
+  transform: scale(0.85);
+  box-shadow: 4px 4px 7px 1px rgb(0 0 0 / 25%);
 }
