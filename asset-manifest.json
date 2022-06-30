@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mathflashcards/static/css/main.a2534b26.css",
-    "main.js": "/mathflashcards/static/js/main.08e09c2f.js",
-    "static/js/787.0563aac1.chunk.js": "/mathflashcards/static/js/787.0563aac1.chunk.js",
-    "index.html": "/mathflashcards/index.html",
-    "main.a2534b26.css.map": "/mathflashcards/static/css/main.a2534b26.css.map",
-    "main.08e09c2f.js.map": "/mathflashcards/static/js/main.08e09c2f.js.map",
-    "787.0563aac1.chunk.js.map": "/mathflashcards/static/js/787.0563aac1.chunk.js.map"
+    "main.css": "/math_flashcards/static/css/main.a2534b26.css",
+    "main.js": "/math_flashcards/static/js/main.c168e0f2.js",
+    "static/js/787.0563aac1.chunk.js": "/math_flashcards/static/js/787.0563aac1.chunk.js",
+    "index.html": "/math_flashcards/index.html",
+    "main.a2534b26.css.map": "/math_flashcards/static/css/main.a2534b26.css.map",
+    "main.c168e0f2.js.map": "/math_flashcards/static/js/main.c168e0f2.js.map",
+    "787.0563aac1.chunk.js.map": "/math_flashcards/static/js/787.0563aac1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2534b26.css",
-    "static/js/main.08e09c2f.js"
+    "static/js/main.c168e0f2.js"
   ]
 }
